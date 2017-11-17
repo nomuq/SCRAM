@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284EBE71E786CBD97C40F2FA57A75401 /* Pods-SCRAM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF18460DE7599B8CF010AB1C74C21F7 /* Pods-SCRAM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1C439EB86D55FB335CD1B2BC55149F /* Pods-SCRAM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D318D291291BD4A65A9A2952B23CF2 /* Pods-SCRAM_Tests-dummy.m */; };
+		3C1BE10B8D66B339875F34FB411FDAA3 /* Pods-SCRAM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE4F28D512E5F0A3CA3C6F2C39AD086 /* Pods-SCRAM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C46138EA202297BF4946C28E1B8EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6AD08A2FE6FE9D645D771C16C028C99E /* Pods-SCRAM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F146F896F7F32290866D4EA0F49B2337 /* Pods-SCRAM_Example-dummy.m */; };
+		72429A4FE0385BAA10437774459ECE5A /* SCRAM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDFB0F4D6A621704DBDBC824A75DC0 /* SCRAM-dummy.m */; };
+		88D9638448E5B39D93BA3BA2BFB5515B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		975EA3103D87AA1A0F6654D0EC98A3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A94FB2FF1FBECE4F00C91BF4 /* SCRAM.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FB2FD1FBECE4F00C91BF4 /* SCRAM.m */; };
+		A94FB3001FBECE4F00C91BF4 /* SCRAM.h in Headers */ = {isa = PBXBuildFile; fileRef = A94FB2FE1FBECE4F00C91BF4 /* SCRAM.h */; };
+		FA6B529CE6DD7CF1FD40658AA19A3D5B /* SCRAM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC71103F24BD7022342D1A149363286 /* SCRAM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28AC1AD2E42A7E9E1DCED00E7CE0D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E883A292896A1DA56906F1E89788280;
+			remoteInfo = SCRAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D318D291291BD4A65A9A2952B23CF2 /* Pods-SCRAM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCRAM_Tests-dummy.m"; sourceTree = "<group>"; };
+		0A93E2B9640CEDF50AD40C5CA1C11BFE /* Pods-SCRAM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRAM_Example-resources.sh"; sourceTree = "<group>"; };
+		0CD07C2CA023D9058BD5454B550BB914 /* SCRAM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCRAM-prefix.pch"; sourceTree = "<group>"; };
+		0F160B0BFB5FCA804947C651DAE773EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F1C06D24D573142EDC010FA685FA15 /* Pods-SCRAM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SCRAM_Tests.modulemap"; sourceTree = "<group>"; };
+		2A4379637F589FD68942FA10FDDDD84E /* SCRAM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SCRAM.modulemap; sourceTree = "<group>"; };
+		2D0D4375ECDBDEBDFFCFD0051792CA4A /* SCRAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCRAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF18460DE7599B8CF010AB1C74C21F7 /* Pods-SCRAM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCRAM_Example-umbrella.h"; sourceTree = "<group>"; };
+		403313E7B81982C60B75B32DD55907EC /* Pods-SCRAM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRAM_Tests-resources.sh"; sourceTree = "<group>"; };
+		6106A9D31FEABC2E8990A1F7C801B2B6 /* Pods_SCRAM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCRAM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72381198C1C2EBCD7F484C64A3AB9337 /* Pods-SCRAM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRAM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		780D331ADEC764AE6C51A59C783A2815 /* Pods-SCRAM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCRAM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7933F508F40CAC144A9E557ED2FCBA87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A65BDD22183AF2A83EC3DE1C8634C2E3 /* Pods-SCRAM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRAM_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A94FB2FD1FBECE4F00C91BF4 /* SCRAM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRAM.m; path = SCRAM/Classes/SCRAM.m; sourceTree = "<group>"; };
+		A94FB2FE1FBECE4F00C91BF4 /* SCRAM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRAM.h; path = SCRAM/Classes/SCRAM.h; sourceTree = "<group>"; };
+		AAE82DA675283C1E03C238AE49E678D5 /* SCRAM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCRAM.xcconfig; sourceTree = "<group>"; };
+		B855161FACDE1AC5DE588683A453F69E /* Pods-SCRAM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCRAM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD86ABA2AF6F9F7543E382F3FE281709 /* Pods-SCRAM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRAM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC71103F24BD7022342D1A149363286 /* SCRAM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCRAM-umbrella.h"; sourceTree = "<group>"; };
+		C0991E78183C34CE8C616A53220DD673 /* Pods_SCRAM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCRAM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE4F28D512E5F0A3CA3C6F2C39AD086 /* Pods-SCRAM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCRAM_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D64C25A18DAE26869CBF305C731FF6B7 /* Pods-SCRAM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCRAM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9DDFB0F4D6A621704DBDBC824A75DC0 /* SCRAM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCRAM-dummy.m"; sourceTree = "<group>"; };
+		DEE8AC58A51AE231A73A7237C36E1E40 /* Pods-SCRAM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRAM_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E02789C391F9D979D4908B4F8C4BAB41 /* Pods-SCRAM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SCRAM_Example.modulemap"; sourceTree = "<group>"; };
+		E473613CEC0739D9EBDBD12AE60D9881 /* Pods-SCRAM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCRAM_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E7A5791CCFAC48F228B2E1853ED3A5F9 /* Pods-SCRAM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCRAM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F146F896F7F32290866D4EA0F49B2337 /* Pods-SCRAM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCRAM_Example-dummy.m"; sourceTree = "<group>"; };
+		F680C927560CEEAD5A9C95FCF839F4B5 /* Pods-SCRAM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCRAM_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCB875B892E2599735372B278BCC57DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548D7929E517D18F85A9F0A487E44BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975EA3103D87AA1A0F6654D0EC98A3B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF993A2B2EDC94B9483780794F25CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D9638448E5B39D93BA3BA2BFB5515B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8E7C3B873BA4941E7E8044D22A0DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C46138EA202297BF4946C28E1B8EFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C90B72A6465054A633E567C5FCE2F70 /* Pods-SCRAM_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB875B892E2599735372B278BCC57DB /* Info.plist */,
+				13F1C06D24D573142EDC010FA685FA15 /* Pods-SCRAM_Tests.modulemap */,
+				780D331ADEC764AE6C51A59C783A2815 /* Pods-SCRAM_Tests-acknowledgements.markdown */,
+				E7A5791CCFAC48F228B2E1853ED3A5F9 /* Pods-SCRAM_Tests-acknowledgements.plist */,
+				07D318D291291BD4A65A9A2952B23CF2 /* Pods-SCRAM_Tests-dummy.m */,
+				A65BDD22183AF2A83EC3DE1C8634C2E3 /* Pods-SCRAM_Tests-frameworks.sh */,
+				403313E7B81982C60B75B32DD55907EC /* Pods-SCRAM_Tests-resources.sh */,
+				CBE4F28D512E5F0A3CA3C6F2C39AD086 /* Pods-SCRAM_Tests-umbrella.h */,
+				BD86ABA2AF6F9F7543E382F3FE281709 /* Pods-SCRAM_Tests.debug.xcconfig */,
+				72381198C1C2EBCD7F484C64A3AB9337 /* Pods-SCRAM_Tests.release.xcconfig */,
+			);
+			name = "Pods-SCRAM_Tests";
+			path = "Target Support Files/Pods-SCRAM_Tests";
+			sourceTree = "<group>";
+		};
+		4FB14AB6077DB134242308B9B114380C /* SCRAM */ = {
+			isa = PBXGroup;
+			children = (
+				A94FB2FE1FBECE4F00C91BF4 /* SCRAM.h */,
+				A94FB2FD1FBECE4F00C91BF4 /* SCRAM.m */,
+				ACF75EB598419F4FEB36CC1BE76922D7 /* Support Files */,
+			);
+			name = SCRAM;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EA0EA4D2D47F8F2128280D16240F6CE7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD7437FBAAE296F27CC999884079C6AE /* Products */,
+				BA61C5C75C59AF3BEAA83AB7E06FCF82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85D6691B45422B1D8AABA49AF9B02BF6 /* Pods-SCRAM_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F160B0BFB5FCA804947C651DAE773EA /* Info.plist */,
+				E02789C391F9D979D4908B4F8C4BAB41 /* Pods-SCRAM_Example.modulemap */,
+				B855161FACDE1AC5DE588683A453F69E /* Pods-SCRAM_Example-acknowledgements.markdown */,
+				D64C25A18DAE26869CBF305C731FF6B7 /* Pods-SCRAM_Example-acknowledgements.plist */,
+				F146F896F7F32290866D4EA0F49B2337 /* Pods-SCRAM_Example-dummy.m */,
+				E473613CEC0739D9EBDBD12AE60D9881 /* Pods-SCRAM_Example-frameworks.sh */,
+				0A93E2B9640CEDF50AD40C5CA1C11BFE /* Pods-SCRAM_Example-resources.sh */,
+				3EF18460DE7599B8CF010AB1C74C21F7 /* Pods-SCRAM_Example-umbrella.h */,
+				DEE8AC58A51AE231A73A7237C36E1E40 /* Pods-SCRAM_Example.debug.xcconfig */,
+				F680C927560CEEAD5A9C95FCF839F4B5 /* Pods-SCRAM_Example.release.xcconfig */,
+			);
+			name = "Pods-SCRAM_Example";
+			path = "Target Support Files/Pods-SCRAM_Example";
+			sourceTree = "<group>";
+		};
+		ACF75EB598419F4FEB36CC1BE76922D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7933F508F40CAC144A9E557ED2FCBA87 /* Info.plist */,
+				2A4379637F589FD68942FA10FDDDD84E /* SCRAM.modulemap */,
+				AAE82DA675283C1E03C238AE49E678D5 /* SCRAM.xcconfig */,
+				D9DDFB0F4D6A621704DBDBC824A75DC0 /* SCRAM-dummy.m */,
+				0CD07C2CA023D9058BD5454B550BB914 /* SCRAM-prefix.pch */,
+				BEC71103F24BD7022342D1A149363286 /* SCRAM-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SCRAM";
+			sourceTree = "<group>";
+		};
+		BA61C5C75C59AF3BEAA83AB7E06FCF82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85D6691B45422B1D8AABA49AF9B02BF6 /* Pods-SCRAM_Example */,
+				0C90B72A6465054A633E567C5FCE2F70 /* Pods-SCRAM_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD7437FBAAE296F27CC999884079C6AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0991E78183C34CE8C616A53220DD673 /* Pods_SCRAM_Example.framework */,
+				6106A9D31FEABC2E8990A1F7C801B2B6 /* Pods_SCRAM_Tests.framework */,
+				2D0D4375ECDBDEBDFFCFD0051792CA4A /* SCRAM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA0EA4D2D47F8F2128280D16240F6CE7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB14AB6077DB134242308B9B114380C /* SCRAM */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AF22026E09CB462B16D5EFC07DEEA52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B529CE6DD7CF1FD40658AA19A3D5B /* SCRAM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA4AEEDA07AE85E3674B95D12F406D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1BE10B8D66B339875F34FB411FDAA3 /* Pods-SCRAM_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAFB6D16D0A94CE8755DBE4A9C7FFAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284EBE71E786CBD97C40F2FA57A75401 /* Pods-SCRAM_Example-umbrella.h in Headers */,
+				A94FB3001FBECE4F00C91BF4 /* SCRAM.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4686380C5CFAAC62694102460313E17D /* Pods-SCRAM_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA0015422D1FA99C82C6D47B340C1E4 /* Build configuration list for PBXNativeTarget "Pods-SCRAM_Example" */;
+			buildPhases = (
+				3DC77EFB73ADF636C4188B1C3002ACB1 /* Sources */,
+				FA8E7C3B873BA4941E7E8044D22A0DFC /* Frameworks */,
+				FDAFB6D16D0A94CE8755DBE4A9C7FFAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D9EF38716C0C6063B57AA33E9AD9A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SCRAM_Example";
+			productName = "Pods-SCRAM_Example";
+			productReference = C0991E78183C34CE8C616A53220DD673 /* Pods_SCRAM_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E883A292896A1DA56906F1E89788280 /* SCRAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0538E84E6D667A5804B45B10AD43635A /* Build configuration list for PBXNativeTarget "SCRAM" */;
+			buildPhases = (
+				4989058D9E043815A6E512AE70FC7D9A /* Sources */,
+				C9AF993A2B2EDC94B9483780794F25CB /* Frameworks */,
+				3AF22026E09CB462B16D5EFC07DEEA52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCRAM;
+			productName = SCRAM;
+			productReference = 2D0D4375ECDBDEBDFFCFD0051792CA4A /* SCRAM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9897538CB9CBDF99379D87C2A5A88EA7 /* Pods-SCRAM_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE24785BD0CC5A0D1CE36917720139 /* Build configuration list for PBXNativeTarget "Pods-SCRAM_Tests" */;
+			buildPhases = (
+				081CF091B6E687BA7965F7620DF3C191 /* Sources */,
+				548D7929E517D18F85A9F0A487E44BAF /* Frameworks */,
+				FDA4AEEDA07AE85E3674B95D12F406D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SCRAM_Tests";
+			productName = "Pods-SCRAM_Tests";
+			productReference = 6106A9D31FEABC2E8990A1F7C801B2B6 /* Pods_SCRAM_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD7437FBAAE296F27CC999884079C6AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4686380C5CFAAC62694102460313E17D /* Pods-SCRAM_Example */,
+				9897538CB9CBDF99379D87C2A5A88EA7 /* Pods-SCRAM_Tests */,
+				4E883A292896A1DA56906F1E89788280 /* SCRAM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081CF091B6E687BA7965F7620DF3C191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1C439EB86D55FB335CD1B2BC55149F /* Pods-SCRAM_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC77EFB73ADF636C4188B1C3002ACB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94FB2FF1FBECE4F00C91BF4 /* SCRAM.m in Sources */,
+				6AD08A2FE6FE9D645D771C16C028C99E /* Pods-SCRAM_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4989058D9E043815A6E512AE70FC7D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72429A4FE0385BAA10437774459ECE5A /* SCRAM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D9EF38716C0C6063B57AA33E9AD9A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCRAM;
+			target = 4E883A292896A1DA56906F1E89788280 /* SCRAM */;
+			targetProxy = B28AC1AD2E42A7E9E1DCED00E7CE0D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A487DEF8722EDE8714DDA72741C3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE8AC58A51AE231A73A7237C36E1E40 /* Pods-SCRAM_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCRAM_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCRAM_Example/Pods-SCRAM_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCRAM_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AA572E0CF759E2156A7BBE2E3EAA4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD86ABA2AF6F9F7543E382F3FE281709 /* Pods-SCRAM_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCRAM_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCRAM_Tests/Pods-SCRAM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCRAM_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		419299532A88DF4CF4CD8E46DAD026BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F680C927560CEEAD5A9C95FCF839F4B5 /* Pods-SCRAM_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCRAM_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCRAM_Example/Pods-SCRAM_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCRAM_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		445BEF865F38790C4F611767DE960187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE82DA675283C1E03C238AE49E678D5 /* SCRAM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCRAM/SCRAM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCRAM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCRAM/SCRAM.modulemap";
+				PRODUCT_NAME = SCRAM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8613CF92C39935310B279C923FCC2493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE82DA675283C1E03C238AE49E678D5 /* SCRAM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCRAM/SCRAM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCRAM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCRAM/SCRAM.modulemap";
+				PRODUCT_NAME = SCRAM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD681F4EC13F5FEC357E2B242B6EE454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72381198C1C2EBCD7F484C64A3AB9337 /* Pods-SCRAM_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SCRAM_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SCRAM_Tests/Pods-SCRAM_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SCRAM_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0538E84E6D667A5804B45B10AD43635A /* Build configuration list for PBXNativeTarget "SCRAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445BEF865F38790C4F611767DE960187 /* Debug */,
+				8613CF92C39935310B279C923FCC2493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA0015422D1FA99C82C6D47B340C1E4 /* Build configuration list for PBXNativeTarget "Pods-SCRAM_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A487DEF8722EDE8714DDA72741C3F6 /* Debug */,
+				419299532A88DF4CF4CD8E46DAD026BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE24785BD0CC5A0D1CE36917720139 /* Build configuration list for PBXNativeTarget "Pods-SCRAM_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA572E0CF759E2156A7BBE2E3EAA4EC /* Debug */,
+				CD681F4EC13F5FEC357E2B242B6EE454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
