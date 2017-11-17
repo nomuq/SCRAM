@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SCRAM'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SCRAM.'
+  s.summary          = 'SCRAM-SHA-256 implementation (RFC5802 http://tools.ietf.org/html/rfc5802).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/satish.babariya@gmail.com/SCRAM'
+  s.homepage         = 'https://github.com/satishbabariya/SCRAM'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'satish.babariya@gmail.com' => 'satish.babariya@gmail.com' }
-  s.source           = { :git => 'https://github.com/satish.babariya@gmail.com/SCRAM.git', :tag => s.version.to_s }
+  s.author           = { 'Satish Babariya' => 'satish.babariya@gmail.com' }
+  s.source           = { :git => 'https://github.com/satishbabariya/SCRAM.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
